@@ -10,6 +10,11 @@ import FruitItem from "./components/Lists_Render/FruitsItem";
 import AscDec from "./components/Sorting/AscDec";
 import TopHighest from "./components/Sorting/TopHighest";
 import ListbyCategory from "./components/Sorting/CategoryList";
+import AllRouting from "./AllRouting";
+import DatePicker from "./components/Date/ShowDate";
+import CountDown from "./components/Date/CountDown";
+import DaysUntilNewYear from "./components/Date/DaysUntilNewYear";
+import DigitalClock from "./components/Date/DigitalCLock";
 
 
 
@@ -35,7 +40,12 @@ function App(){
       {/* <FruitItem  lists= {FruitLists}/> */}
       {/* <AscDec /> */}
       {/* <TopHighest /> */}
-      <ListbyCategory />
+      {/* <ListbyCategory /> */}
+      {/* <AllRouting /> */}
+      {/* <DatePicker /> */}
+      {/* <CountDown /> */}
+      {/* <DaysUntilNewYear /> */}
+      <DigitalClock />
 
     </div>
   )
