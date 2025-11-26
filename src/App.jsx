@@ -15,6 +15,11 @@ import DatePicker from "./components/Date/ShowDate";
 import CountDown from "./components/Date/CountDown";
 import DaysUntilNewYear from "./components/Date/DaysUntilNewYear";
 import DigitalClock from "./components/Date/DigitalCLock";
+import FetchApi from "./components/Hooks/FetchApi";
+import CountDownUSeEffect from "./components/Hooks/CountDownUseEffect";
+import Debounce from "./components/Hooks/Debounce";
+import SearchInput from "./components/Hooks/Debounce";
+import AutoFocusInput from "./components/Hooks/UseRef";
 
 
 
@@ -45,7 +50,12 @@ function App(){
       {/* <DatePicker /> */}
       {/* <CountDown /> */}
       {/* <DaysUntilNewYear /> */}
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+      {/* <FetchApi /> */}
+      {/* <CountDownUSeEffect /> */}
+      {/* <Debounce /> */}
+          {/* <SearchInput /> */}
+          <AutoFocusInput />
 
     </div>
   )
